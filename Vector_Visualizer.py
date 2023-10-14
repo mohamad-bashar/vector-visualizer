@@ -43,6 +43,7 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 st.markdown("<h1 style='text-align: center;   font-size: 3.5rem;'>Vector Visualizer</h1>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center;   font-size: 1.2rem;'>This app is made by Mohammad Bashar Jalal with python, Enjoy!</p>", unsafe_allow_html=True)
 
 col1, col2 = st.columns(2, gap="large")
 
